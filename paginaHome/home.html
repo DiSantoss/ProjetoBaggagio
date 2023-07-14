@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+        <header>
+            <div class="container">
+                    <div class="left">
+                        <h1>BAGGAGIO</h1>
+                    </div>
+                    <div class="right">
+                            <div class="logout"> <a href="/projeto/paginaLogin/login.html"> <img src="/projeto/imagens/botaoDesligar.png" alt=""></a> </div>
+                            <div class="NomeEProfissao">
+                                <h6 class="nome" id="nome"></h6> <br>
+                                <h6 class="profissao">Software Developer</h6>
+                            </div>
+                            <div class="avatar">
+                                <img src="" alt="" id="imgUsuario">
+                            </div>
+                    </div>
+
+            </div>
+
+        </header>
+    
+        <div class="cadastros">
+            <div class="usuarioscadastrados">
+               <a href="/projeto/paginaDeCadastro/cadastro.html">Usuários</a>
+            </div>
+            <div class="cadastrar"> 
+                <a href="" >Cadastrar Usuario</a>
+            </div>
+        </div>
+
+        <div class="semUsuarios">
+            <h1 style="font-family:Arial, Helvetica, sans-serif;font-weight: 100;margin-left: 30%;">Há um usuário cadastrados</h1>
+        </div>
+
+
+<!--teste formulario abaixo -->
+
+        
+<div class="formulario" style="display: none;">
+  <form id="cadastroForm">
+    <div class="titleCadastro">
+        <h1>Cadastrar Usuario</h1> <button type="button" id="voltarBtn" class="voltarBtn">Voltar</button>
+    </div>
+    <h5>Nome</h5>
+    <input type="text" id="nomeInput" placeholder="Nome" required> <br>
+    <h5>SobreNome</h5>
+    <input type="text" id="sobrenomeInput" placeholder="Sobrenome" required> <br>
+    <h5>Email</h5>
+    <input type="email" id="emailInput" placeholder="Email" required> <br> 
+    <h5>Telefone</h5>
+    <input type="tel" id="telefoneInput" placeholder="Telefone" required> <br>
+    <h5>CEP</h5>
+    <input type="text" id="cepInput" placeholder="CEP" required> <br>
+    <h5>Habilidades</h5>
+    <textarea id="habilidadesInput" placeholder="Habilidades Ex: html, css, Javascript" required></textarea> <br>
+    <h5>Numero</h5>
+    <input type="text" id="numeroInput" placeholder="N°" required> <br>
+    <h5>Rua</h5>
+    <input type="text" id="ruaInput" placeholder="Rua" required> <br>
+    <h5>Bairro</h5>
+    <input type="text" id="bairroInput" placeholder="Bairro" required> <br>
+    <h5>Estado</h5>
+    <input type="text" id="estadoInput" placeholder="Estado" required> <br>
+
+    <button type="submit" class="btnCadastrar">Cadastrar</button>
+  </form>
+</div>
+ 
+
+
+
+
+
+        <script src="home.js"></script>
+</body>
+</html>

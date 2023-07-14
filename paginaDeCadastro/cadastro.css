@@ -1,0 +1,148 @@
+/*estilos da pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(51, 51, 71);
+}
+
+header {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  background-color: rgb(102, 105, 121);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logout img {
+    width: 20px;
+    margin-right: 10px;
+    margin-right: 30px;
+    
+}
+
+.nome {
+    font-size: 17px;
+    color: rgb(173, 171, 171);
+    margin-left: 45px;
+    margin-bottom: -14px;
+}
+
+.profissao {
+    font-size: 18px;
+    color: aqua;
+}
+
+.avatar img {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 5px solid rgb(9, 185, 162);
+}
+
+
+.cadastros {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    
+}
+
+.cadastrar {
+    margin-left: 20px;
+    
+}
+
+.cadastrar a {
+    text-decoration-line: none;
+    color: gray;
+}
+
+.cadastros a {
+    text-decoration-line: none;
+}
+
+a {
+    font-size: 20px;
+}
+
+.usuarioscadastrados a {
+    color: rgb(22, 182, 160);
+}
+
+
+
+
+
+/* link voltar */
+
+.voltar {
+    margin-left: 50px;
+    
+}
+
+.voltar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.titleUsuarios {
+    color: rgb(165, 164, 164);
+}
+
+
+
+/*teste do estilo da tabela abaixo*/
+
+#tabelaUsuarios {
+  width: 1300px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: rgb(165, 162, 162);
+  margin: 20px;
+  
+}
+
+#tabelaUsuarios th,
+#tabelaUsuarios td {
+  border: transparent;
+  padding: 8px;
+  
+}
+
+#tabelaUsuarios th {
+  background-color: #0e0d0d;
+  text-align: left;
+  border-right: 1px solid #918f8f; /* Adiciona uma linha vertical à direita com 1 pixel de largura e cor preta */
+}
+
+
+.editartabela, .excluirtabela, .informacaotabela {
+    width: 20px;
+    
+}
+
+.editarexcluir {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*----------------*/
+

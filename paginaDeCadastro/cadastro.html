@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+        <header>
+            <div class="container">
+                    <div class="left">
+                        <h1>BAGGAGIO</h1>
+                    </div>
+                    <div class="right">
+                            <div class="logout"> <a href="/projeto/paginaLogin/login.html"> <img src="/projeto/imagens/botaoDesligar.png" alt=""></a> </div>
+                            <div class="NomeEProfissao">
+                                <h6 class="nome" id="nome"></h6> <br>
+                                <h6 class="profissao">Software Developer</h6>
+                            </div>
+                            <div class="avatar">
+                                <img src="" alt="" id="imgUsuario">
+                            </div>
+                    </div>
+
+            </div>
+
+        </header>
+    
+        <div class="cadastros">
+            <div class="usuarioscadastrados">
+               <a href="">Usuários </a>
+            </div>
+            <div class="voltar"> 
+                <a href="/projeto/paginaHome/home.html">Cadastrar Usuário</a>
+            </div>
+        </div>
+
+
+ <h1 class="titleUsuarios" style="margin-left: 40%;">Usuários Cadastrados</h1>
+
+<!--teste tabela abaixo -->
+
+
+
+<table id="tabelaUsuarios">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Email</th>
+      <th>Telefone</th>
+      <th>Rua</th>
+      <th>Bairro</th>
+      <th>Cidade</th>
+      <th>Estado</th>
+      <th>CEP</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody id="tabelaUsuariosBody">
+    <tr>
+      <td>João</td>
+      <td>joao@example.com</td>
+      <td>(11) 1234-5678</td>
+      <td>Rua A</td>
+      <td>Bairro X</td>
+      <td>Cidade Y</td>
+      <td>Estado Z</td>
+      <td>12345-678</td>
+      <td>
+        <!-- Botões de ações -->
+        <div class="editarexcluir">
+        <img src="/projeto/imagens/editar.png" alt="" id="editartabela" class="editartabela">
+
+        <img src="/projeto/imagens/info1.png" alt="" id="informacaotabela" class="informacaotabela">
+
+        <img src="/projeto/imagens/excluir.png" alt="" id="excluirtabela" class="excluirtabela">
+          </div>
+      </td>
+    </tr>
+    <!-- Adicione mais linhas manualmente conforme necessário -->
+  </tbody>
+</table>
+
+
+
+        <script src="cadastro.js"></script>
+</body>
+</html>

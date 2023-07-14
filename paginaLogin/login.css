@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(41, 41, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+img {
+  
+  width: 200px;
+  border-radius: 50%;
+  
+}
+
+.inputInicial {
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color:rgb(41, 41, 58) ;
+  width: 280px;
+  height: 25px;
+
+}
+
+.botaoInicial {
+  background-color: aqua;
+  height: 30px;
+  margin: 25px;
+  width: 130px;
+  border: 1px solid rgb(189, 184, 184);
+  border-radius: 5px;
+  margin-left: 80px;
+}
